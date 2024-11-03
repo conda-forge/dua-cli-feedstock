@@ -1,5 +1,5 @@
 {% set name = "dua-cli" %}
-{% set version = "2.29.3" %}
+{% set version = "2.29.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Byron/dua-cli/archive/v{{ version }}.tar.gz
-  sha256: 69ae562a340b11668d8f43c6cd2de1a0777fa0afb951c6338dc58b62e86bb550
+  sha256: b63c4cd9cf7ffa369f621cf798944374cef59b6cdb0fc8d608e2192bc9085951
 
 build:
   number: 0
