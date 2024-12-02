@@ -1,4 +1,6 @@
 set RUSTC_BOOTSTRAP=1
+set CARGO_PROFILE_RELEASE_STRIP=symbols
+set CARGO_PROFILE_RELEASE_LTO=fat
 
 :: check licenses
 cargo-bundle-licenses ^
