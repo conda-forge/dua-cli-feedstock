@@ -1,5 +1,5 @@
 context:
-  version: "2.45.1"
+  version: "2.46.0"
 
 package:
   name: dua-cli
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Byron/dua-cli/archive/v${{ version }}.tar.gz
-  sha256: d75fd6cb1c6a470b53d55051401a903f175a8a68d92d7d12d2c538fd8e70036e
+  sha256: 321e06440a8ba5dd05ecfd78904a127c9ffa556a40d886ab5862a9fe9aa9bd21
 
 build:
   number: 0
